@@ -9,7 +9,7 @@ This repository demonstrates how to build AWS infrastructure from scratch using 
 | `provider.tf`       | AWS provider configuration & region settings                           |
 | `variables.tf`      | Input variables for infrastructure (CIDRs, instance types, etc.)       |
 | `userdata1.sh`      | User data script to configure Apache on EC2 instance 1                 |
-| `userdata2.sh`      | User data script to configure Apache on EC2 instance 2                 |
+| `userdata2.sh`      | User data script to configure nginx on EC2 instance 2                 |
 | `install.md`        | Steps to install and set up Terraform environment                      |
 | `aws-connection.md` | Guide on AWS credentials, IAM setup, and connecting Terraform with AWS |
 | `README.md`         | This file — project overview and instructions                          |
